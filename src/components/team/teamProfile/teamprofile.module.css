@@ -1,0 +1,172 @@
+table{
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 35px -7px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.caption{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    display: grid;
+    text-align: center;
+    /* display: inline; */
+    color: #4B176A;
+}
+
+.tableH1{
+    width: 970px;
+    height: 39px;
+    /* background: #4B176A; */
+    /* border-radius: 20px; */
+}
+
+.tableH1 th,td {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140.69%;
+    /* identical to box height, or 23px */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color:#4B176A;
+    text-align: left;
+    padding: 16px;   
+    overflow: hidden;
+}
+
+.tableH1 th{
+    color: #FFFFFF;
+    background-color: #4B176A;
+}
+
+.heading{
+    text-align: right;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    /* identical to box height */
+    /* text-align: center; */
+    color: #4B176A;
+    /* margin: 50px 30px; */
+}
+
+.mainbtn{
+
+    /* position: absolute; */
+    width: 132px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #4B176A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    /* line-height: 140.69%; */
+    /* identical to box height, or 23px */
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #4B176A;
+}
+
+.firstHeading{
+    margin-bottom: 40px;
+    display: inline-flex;
+    text-align: center;
+}
+
+
+/* // CheckBox Styling */
+
+.checkBox{
+    width: 25px;
+    height: 25px;
+    background: #E0DDE0;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+
+.checkBox label {
+    display: inline;
+  }
+
+
+.tableBtn{
+    position: absolute;
+    max-width: 88px;
+    height: 28px;
+    background: #FFFFFF;
+    border: 1px solid #4B176A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: -15px; 
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140.69%;
+    /* identical to box height, or 23px */
+    text-align: center;
+    /* letter-spacing: 0.05em; */
+    color: #4B176A;
+}
+
+.tableBtn:hover{
+    background: #4B176A;
+    color: #FFFFFF;
+}
+
+.specialButton{
+    max-width: 74px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #4B176A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: -15px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 93.69%;
+    text-align: left;
+    /* letter-spacing: 0.05em; */
+    color: #4B176A;
+}
+
+.specialButton:hover{
+    color: #FFFFFF;
+    background: #4B176A;
+}
+
+
+
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 600px) {
+    .firstHeading{
+        display: inherit;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
+

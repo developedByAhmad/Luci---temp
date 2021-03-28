@@ -1,0 +1,388 @@
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    color: #4B176A;
+    margin-bottom: 50px;
+
+    /*margin-left: 40px;*/
+    /*margin-right: 20px;*/
+    /*padding-left: 20px;*/
+}
+
+.flexChild_option1 {
+    flex-flow: row-reverse;
+    margin-right: 20px;
+}
+
+.flexChild_option2 {
+    margin-left: 20px;
+}
+
+.flexChild {
+    color: #4B176A;
+    margin-right: 300px;
+
+}
+
+.flexChild2 {
+    margin-left: 25px;
+
+}
+
+.countStatus{
+    /*margin-top: 80px;*/
+    /*margin-left: 100px;*/
+    color: rgba(75, 23, 106, 0.5);
+}
+
+.leftGridMargin, .rightGridMargin {
+
+}
+
+
+.acceptButtonMargin {
+    /*margin-right: 10px;*/
+    /*background: '#4B176A', borderRadius: '15px', width: '220px', fontSize: '20px', fontWeight: 'bold', fontFamily: 'Montserrat', margin: '0px 5px 0px 0px'*/
+    background: #4B176A;
+    border-radius: 15px;
+    width: 220px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin: 0px 5px 0px 0px;
+}
+
+.denyButtonMargin {
+    /*margin-left: 10px;*/
+    /*background: '#4B176A', borderRadius: '15px', width: '220px', fontSize: '20px', fontWeight: 'bold', fontFamily: 'Montserrat', margin: '0px 5px 0px 0px'*/
+    background: #4B176A;
+    border-radius: 15px;
+    width: 220px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin: 0px 5px 0px 0px;
+}
+
+.userIcon {
+    width: auto;
+    height: auto;
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+
+    .countStatus{
+        /*margin-top: 80px;*/
+        /*margin-left: 130px;*/
+        /*color: rgba(75, 23, 106, 0.5);*/
+    }
+
+    .leftGridMargin {
+        margin-left: 50px;
+
+    }
+
+    .rightGridMargin {
+        margin-left: 0px;
+    }
+
+
+    .acceptButtonMargin, .denyButtonMargin {
+        width: 200px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) ipad pro */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .flexContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /*align-content: center;*/
+        margin-top: 40px;
+        color: #4B176A;
+        margin-bottom: 50px;
+
+        /*margin-left: 40px;*/
+        /*margin-right: 20px;*/
+        /*padding-left: 20px;*/
+    }
+
+    .countStatus{
+        /*!*margin-top: 70px;*!*/
+        /*!*margin-left: 70px;*!*/
+        /*color: rgba(75, 23, 106, 0.5);*/
+    }
+
+    .leftGridMargin {
+        margin-left: 40px;
+
+    }
+
+    .rightGridMargin {
+        margin-left: 0px;
+    }
+
+
+    .acceptButtonMargin, .denyButtonMargin {
+        width: 180px;
+    }
+
+
+    .flexChild_option1 {
+        flex-flow: row-reverse;
+        margin-right: 10px;
+    }
+
+    .flexChild_option2 {
+        margin-left: 10px;
+    }
+
+    .flexChild {
+        color: #4B176A;
+        /*flex: 100%;*/
+        /*width: 50%;*/
+
+
+    }
+
+    .flexChild2 {
+        margin-left: 70px;
+        /*width: 50%;*/
+        /*flex : 100%;*/
+        /*margin-right: 290px;*/
+
+        /*margin-top: 25px;*/
+    }
+
+    .userIcon {
+        width: auto;
+        height: auto;
+    }
+
+
+    .nameSize {
+        font-size: 20px;
+        font-weight: bold;
+        color: #4B176A;
+    }
+
+    .messageSize {
+        font-size: 15px;
+    }
+
+
+
+
+
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .flexContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /*align-content: center;*/
+        margin-top: 40px;
+        color: #4B176A;
+        margin-bottom: 50px;
+
+        /*margin-left: 40px;*/
+        /*margin-right: 20px;*/
+        /*padding-left: 20px;*/
+    }
+
+    .countStatus{
+        /*margin-top: 60px;*/
+        /*margin-left: 20px;*/
+        /*color: rgba(75, 23, 106, 0.5);*/
+    }
+
+    .leftGridMargin {
+        margin-left: 40px;
+
+    }
+
+    .rightGridMargin {
+        margin-left: 10px;
+    }
+
+
+    .acceptButtonMargin, .denyButtonMargin {
+        width: 140px;
+    }
+
+    .flexChild_option1 {
+        flex-flow: row-reverse;
+        margin-right: 10px;
+    }
+
+    .flexChild_option2 {
+        margin-left: 10px;
+    }
+
+    .flexChild {
+        color: #4B176A;
+        /*flex: 100%;*/
+        /*width: 50%;*/
+
+
+    }
+
+    .flexChild2 {
+
+        margin-left: 100px;
+        /*margin-top: 20px;*/
+        width: 40%;
+        /*flex : 100%;*/
+        /*margin-right: 290px;*/
+
+    }
+
+    .userIcon {
+        width: auto;
+        height: auto;
+    }
+
+
+    .nameSize {
+        font-size: 15px;
+        font-weight: bold;
+        color: #4B176A;
+    }
+
+    .messageSize {
+        font-size: 12px;
+    }
+
+
+    /*.acceptButtonMargin {*/
+    /*    width: 40%;*/
+    /*    margin-bottom: 12px;*/
+
+    /*    !*margin-right: 5px;*!*/
+    /*}*/
+
+    /*.denyButtonMargin {*/
+    /*    width: 40%;*/
+    /*    margin-bottom: 12px;*/
+    /*    !*margin-left: 5px;*!*/
+    /*}*/
+
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .flexContainer {
+        display: flex;
+        /*flex-direction: row;*/
+        /*justify-content: center;*/
+        /*align-content: center;*/
+        /*margin-top: 30px;*/
+        color: #4B176A;
+        margin-bottom: 50px;
+
+        /*margin-left: 40px;*/
+        /*margin-right: 20px;*/
+        /*padding-left: 20px;*/
+    }
+
+    .countStatus{
+        /*margin-top: 10px;*/
+        /*margin-left: 15px;*/
+        /*font-size: 12px;*/
+        /*color: rgba(75, 23, 106, 0.5);*/
+    }
+
+    .leftGridMargin {
+        margin-left: 0px;
+
+    }
+
+    .rightGridMargin {
+        margin-left: 15px;
+    }
+
+
+    .acceptButtonMargin, .denyButtonMargin {
+        width: 45px;
+        height: 40px;
+        font-size: xx-small;
+    }
+
+    .flexChild_option1 {
+        flex-flow: row-reverse;
+        margin-right: 2px;
+    }
+
+    .flexChild_option2 {
+        margin-left: 2px;
+    }
+
+
+    .flexChild {
+        color: #4B176A;
+        flex: 100%;
+        width: 20%;
+
+
+    }
+
+    .flexChild2 {
+
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 57%;
+        /*flex : 100%;*/
+        /*margin-right: 290px;*/
+
+    }
+
+    .userIcon {
+        width: auto;
+        height: auto;
+    }
+
+
+    .nameSize {
+        font-size: 11px;
+        font-weight: bold;
+        color: #4B176A;
+    }
+
+    .messageSize {
+        font-size: 7px;
+    }
+
+
+    /*.acceptButtonMargin {*/
+    /*    width: 35%;*/
+    /*    margin-bottom: 25px;*/
+
+    /*    !*margin-right: 5px;*!*/
+    /*}*/
+
+    /*.denyButtonMargin {*/
+    /*    width: 35%;*/
+    /*    margin-bottom: 25px;*/
+    /*    !*margin-left: 5px;*!*/
+    /*}*/
+
+
+
+
+}

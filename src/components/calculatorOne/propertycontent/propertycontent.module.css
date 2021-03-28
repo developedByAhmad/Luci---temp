@@ -1,0 +1,43 @@
+.innput{
+    background-color:rgba(128, 0, 128, 0.1);
+    border-radius: 15px;
+    width: 86%;
+    margin-bottom:15px;
+    height:57px;
+}
+
+.imageDivMain{
+    height:50vh;
+    margin-top:10px;
+    margin-left: 15px; 
+}
+
+.imageDiv{
+    height:40vh;
+    background-color:aliceblue;
+    overflow: hidden;
+}
+
+.bn{
+    background: #4B176A;
+    border-radius: 10px;
+    font-family:"Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    height:62px;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.margins{
+    margin-top:10px;
+    margin-left: 15px
+}
+
+.inputMargins{
+    margin-bottom:10px;
+}

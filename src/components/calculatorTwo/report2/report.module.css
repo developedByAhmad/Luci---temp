@@ -1,0 +1,45 @@
+.reportview{
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.checkBox{
+    width: 25px;
+    height: 25px;
+    background: #E0DDE0;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+
+.checkBox label {
+    display: inline;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .reportview{
+        height: 110vh;
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .reportview{
+        height: 130vh;
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+    }
+}
+
+.heading{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: 10px;
+    color: #4B176A;
+    margin-left: 10px;
+}
+

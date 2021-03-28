@@ -1,0 +1,23 @@
+.heading{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: left;
+    color: #4B176A;
+    margin-bottom: 15px;
+    /* display: inline-flex; */
+}
+
+.toggleStyling{
+    margin-left:47% !important;
+    margin-bottom: 2% !important;
+}
+
+@media only screen and (max-width:900px){
+    .toggleStyling{
+        margin-left:6% !important;
+        margin-top: -5% !important;
+    }
+}

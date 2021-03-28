@@ -1,0 +1,234 @@
+
+
+.flex-container {
+    display: flex;
+    /* flex-direction: row; */
+    margin-top: 0px
+}
+
+/* @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  } */
+
+.flex-child {
+    flex: 1;
+    /* border: 2px solid yellow; */
+    padding-left: 20px ;
+}  
+
+
+.flex-child h1{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    padding-left: 0px;
+    color: #4B176A;
+    /* margin-left: -25rem; */
+    display: inline-flex;
+    margin-left: -50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.flex-child label{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4B176A;
+    text-align: left;
+}
+
+.flex-child input{
+    width: 380px;
+    height: 48px;
+    background: rgba(128, 0, 128, 0.1);
+    border-radius: 15px;
+    margin-bottom: 17px;
+}
+
+.flex-child .selectInput{
+    width: 380px;
+    height: 48px;
+    background: rgba(128, 0, 128, 0.1);
+    border-radius: 15px;
+    margin-bottom: 17px;
+}
+
+.flex-child:first-child {
+    margin-right: 10px;
+} 
+
+.other-child button{
+    background: #4B176A;
+    border-radius: 10px;
+    height: 52px;
+    width: 90%;
+    margin-left: -111px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.other-child {
+    width: 100%;
+    /* background: yellow; */
+    height: 540px;
+    padding: .5rem;
+}
+
+.other-child .imgDiv{
+    height: 292px;
+    width: 840px;
+    margin-top: 5px;
+    padding: .5rem;
+    /* padding-top: 25px; */
+    background-size:contain;
+    margin-right: 33rem;
+    overflow: hidden;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .flex-child input{
+        width: 250px;
+        height: 48px;
+        background: rgba(128, 0, 128, 0.1);
+        border-radius: 15px;
+        margin-bottom: 17px;
+        margin-left: -67px;
+    }
+
+    .flex-child label{
+        font-size: 16px;
+        line-height: 16px;
+        color: #4B176A;
+        text-align: left;
+        margin-left: -70px;
+    }
+
+    .flex-child .form-group{
+        margin-bottom: 0.5rem;
+    }
+
+    .flex-child form{
+        margin-top: -100px;
+    }
+
+    .property-layout-sider {
+        flex-direction: row;
+        /* background-color: #ffff; */
+        background-color: #ffffff;
+        padding: 20px 30px 20px 30px !important;
+        /* margin-bottom: 50px; */
+        height: 165vh;
+    }
+
+    .flex-child h1{
+        display: inherit;
+        margin-left: -68px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .flex-child input{
+        width: 280px;
+        height: 48px;
+        background: rgba(128, 0, 128, 0.1);
+        border-radius: 15px;
+        margin-bottom: 17px;
+        margin-left: -60px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .flex-child input{
+        width: 280px;
+        height: 48px;
+        background: rgba(128, 0, 128, 0.1);
+        border-radius: 15px;
+        margin-bottom: 17px;
+        margin-left: -60px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .flex-child input{
+        width: 320px;
+        height: 48px;
+        background: rgba(128, 0, 128, 0.1);
+        border-radius: 15px;
+        margin-bottom: 17px;
+        
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .flex-child input{
+        width: 320px;
+        height: 48px;
+        background: rgba(128, 0, 128, 0.1);
+        border-radius: 15px;
+        margin-bottom: 17px;
+    }
+
+    .contentBlock-0-2-6 {
+        margin-top: -40px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .flex-child input{
+        width: 380px;
+        height: 48px;
+        background: rgba(128, 0, 128, 0.1);
+        border-radius: 15px;
+        margin-bottom: 17px;
+    }
+
+    .other-child .imgDiv{
+        height: 300px;
+        width: 840px;
+    }
+
+    .contentBlock-0-2-6 {
+        margin-top: -40px;
+        margin-left: 20px;
+
+    }
+
+    .flex-child label{
+        font-size: 19px;
+        line-height: 24px;
+        margin-left: -3rem;
+    }
+
+    .form-row>.col {
+        padding-right: 5px;
+        /* padding-left: 10px; */
+        display: inline-grid;
+    }
+
+    .form-row>.col>.form-group{
+        display: inline-grid;
+        margin-bottom: 95px;
+    }
+
+}

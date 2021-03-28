@@ -1,0 +1,458 @@
+.home{
+    background:url("./../../assets/background-2.jpeg");
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.newHomeLuci{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 130px;
+    line-height: 152px;
+    color: #4B176A;
+    margin-bottom: 20px;
+    margin-right: 60px;
+}
+
+.newHomeText{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    /* line-height: 21px; */
+    /* identical to box height */
+    text-align: center;
+    color: #4B176A;
+    margin-bottom: 40px;
+}
+
+.newButtonLuci{
+    width: 360px;
+    height: 65.06px;
+    background: #4B176A;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 35px -7px rgba(0, 0, 0, 0.15);
+    border-radius: 27px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    /* margin-left: 10px; */
+}
+
+
+@media only screen and (max-width:600px){
+    .newHomeLuci{
+        font-size: 120px;
+        margin-right:45px;
+    }
+
+    .newButtonLuci{
+        width: 290px;
+        margin-left: 20px;
+    }
+}
+
+
+
+.rowMain{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+
+.homeLuci{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -150px ;
+}
+
+.homeLuciImg{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    margin-left: -10px;
+    font-size: 180px;
+    /* identical to box height */
+    color: #4B176A;
+}
+
+.mainText{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    /* text-align: center; */
+    color: #4B176A;
+    margin-left: 30px;
+}
+
+
+.homeLuciText{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #800080;
+}
+
+.homeButtonSign{
+    border: 1px solid #4B176A;
+    width: 400px;
+    height: 60px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 27px;  
+    margin-top: 350px;
+    margin-left: 65px;
+    color: #4B176A;
+    font-family: "Montserrat";
+    font-style: normal;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.homeButtonLogin{
+    border: 1px solid #4B176A;
+    width: 400px;
+    height: 60px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 27px;  
+    margin-top: 10px;
+    margin-left: 65px;
+    color: white;
+    background-color:#4B176A ;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    /* padding-top: 18px; */
+    font-size: 18px;
+    line-height: 22px;
+    /* padding-bottom: 60px; */
+}
+
+
+.extraImg{
+    margin-top: 3px;
+}
+
+
+.homeButtonLogin span{
+    margin-left: 10px;
+}
+
+
+.homeButtonSign span{
+    margin-left: 8px;
+}
+/* 
+.homeButtonLogin  span, .homeButtonSign span{
+
+    margin-top: 17px;
+} */
+
+/* #rowId {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 4px;
+} */
+
+@media only screen and (max-width: 370px) {
+    .rowOne{
+        overflow: auto;
+    }
+
+    .homeLuci{
+        position: absolute;
+        width: fit-content;
+        margin-left: -20px;
+        margin-top: 36px;   
+    }
+
+    .homeLuciImg{
+        font-size: 140px !important;
+        margin-left: -70px !important;
+        margin-top: 96px !important;
+    }
+
+    .homeLuciText{
+        position: absolute;
+        margin-top: 380px;
+        margin-left: -40px !important;
+        color: #4B176A;
+        font-size: 22px;
+    }
+
+    .homeButtonSign{
+        width: 305px;
+        height: 55px;
+        margin-top: 117px !important;
+        margin-left: 20px;
+    }
+
+    .homeButtonLogin{
+        width: 305px;
+        height: 55px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .home{
+        background:url("./../../assets/background-2-m.jpg");
+        background-size: 100% 100%;
+        height: 100vh;
+        width: 100%;
+    }
+  }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .rowOne{
+        overflow: auto;
+    }
+    
+    .homeLuci{
+        position: absolute;
+        width: fit-content;
+        margin-left: -20px;
+        margin-top: 36px;   
+    }
+
+    .homeLuciImg{
+        font-size: 140px;
+        margin-left: 48px;
+        margin-top: 136px;
+    }
+
+    .homeLuciText{
+        position: absolute;
+        margin-top: 324px;
+        margin-left: 15px;
+        color: #4B176A;
+        font-size: 22px;
+    }
+
+    .homeButtonSign{
+        width: 305px;
+        height: 55px;
+        margin-top: 250px;
+        margin-left: 20px;
+    }
+
+    .homeButtonLogin{
+        width: 305px;
+        height: 55px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .home{
+        background:url("./../../assets/background-2-m.jpg");
+        background-size: 100% 100%;
+        height: 100vh;
+        width: 100%;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up)  Ipad */
+  @media only screen and (min-width: 600px) {
+    .homeLuci{
+        position: absolute;
+        width: fit-content;
+        margin-left: -20px;
+        margin-top: 36px;   
+    }
+
+    .homeLuciImg{ 
+        height: 116px;
+        width: 196px;
+        margin-left: 25px;
+        margin-top: 120px;
+    }
+
+    .homeLuciText{
+        position: absolute;
+        margin-top: 330px;
+        margin-left: 25px;
+        color: #4B176A;
+        font-size: 22px;
+    }
+
+    .homeButtonSign{
+        width: 300px;
+        height: 65px;
+        margin-top: 220px;
+        margin-left: 18px;
+    }
+
+    .homeButtonLogin{
+        width: 300px;
+        height: 65px;
+        margin-top: 20px;
+        margin-left: 18px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .homeLuci{
+        position: absolute;
+        width: fit-content;
+        margin-left: -20px;
+        margin-top: 36px;   
+    }
+
+    .homeLuciImg{ 
+        font-size: 180px;
+        margin-left: 25px;
+        margin-top: 125px;
+
+    }
+
+    .homeLuciText{
+        position: absolute;
+        margin-top: 340px;
+        margin-left: 20px;
+        color: #4B176A;
+        font-size: 25px;
+    }
+
+    .homeButtonSign{  
+        width: 310px;
+        height: 70px;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+
+    .homeButtonLogin{  
+        width: 310px;
+        height: 70px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) ipad pro */
+  @media only screen and (min-width: 992px) {
+    .homeLuci{
+        position: absolute;
+        width: fit-content;
+        margin-left: -20px;
+        margin-top: 36px;   
+    }
+
+    .homeLuciImg{ 
+        height: 135px;
+        width: 230px;
+        margin-left: 21px;
+        margin-top: 120px;
+    }
+
+    .homeLuciText{
+        position: absolute;
+        margin-top: 345px;
+        margin-left: 18px;
+        color: #4B176A;
+        font-size: 28px;
+    }
+
+    .homeButtonSign{  
+        width: 340px;
+        height: 72px;
+        margin-top: 320px;
+        margin-left: 30px;
+    }
+
+    .homeButtonLogin{  
+        width: 340px;
+        height: 72px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+  } 
+  
+
+
+
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .homeLuci{
+        position: absolute;
+        width: fit-content;
+        margin-left: -20px;
+        margin-top: 36px;   
+    }
+
+    .homeLuciImg{ 
+        height: 130px;
+        width: 231px;
+        margin-left: 38px;
+        margin-top: 144px;
+    }
+
+    .homeLuciText{
+        position: absolute;
+        margin-top: 365px;
+        margin-left: 20px;
+        text-align: left;
+        /* margin-left: 50px; */
+        color: #4B176A;
+        font-size: 28px;
+    }
+
+    .homeButtonSign{  
+        width: 390px;
+        height: 80px;
+        margin-top: 230px;
+        margin-left: 20px;
+    }
+
+    .homeButtonLogin{  
+        width: 390px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+  }
+
+
+
+  
+  @media only screen and (max-height: 500px){
+    .homeButtonSign{  
+        margin-top: 40px !important;
+    }
+  }
+
+
+  @media only screen and (min-height: 600px){
+    .homeButtonSign{  
+        margin-top: 80px !important;
+    }
+  }
+
+  @media only screen and (min-height: 900px){
+    .homeButtonSign{  
+        margin-top: 150px;
+    }
+  }

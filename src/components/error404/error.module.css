@@ -1,0 +1,218 @@
+.home{
+    background:url("./../../assets/background-2.jpeg");
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.loginDiv{
+    position: absolute;
+    top: 25%;
+    /* left: 50%; */
+    margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+    width: 769px;
+    height: 669px;
+    /* margin: auto; */
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 35px -7px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  
+}
+
+.loginDiv img{
+    color: #4B176A;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+.errormain{
+    min-height: 598px;
+}
+
+
+.loginDiv h1{
+    
+}
+
+
+.newp{
+    color: #4B176A;
+    margin-left: 30px;
+    /* margin-top: 50px; */
+    /* margin-bottom: -40px; */
+    font-size: 18px;
+
+}
+
+.newLuciText{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 110px;
+    margin-bottom: 0px;
+    /* line-height: 152px; */
+    color: #4B176A;
+
+}
+
+.new404Text{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 130px;
+    /* line-height: 180px; */
+    color: #4B176A;
+    margin-bottom: 0px;
+}
+
+.newp2{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #4B176A;
+}
+
+
+.newbutton{
+    width: 290px;
+    height: 65.06px;
+    background: #4B176A;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 35px -7px rgba(0, 0, 0, 0.15);
+    border-radius: 27px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:600px){
+    .newbutton{
+      width: 205px;
+      height: 50.06px;
+    }
+    .newp2{
+        font-size: 14px;
+    }
+    .newLuciText{
+        font-size: 100px;
+    }
+    .new404Text{
+        font-size: 120px;
+    }
+  }
+
+.loginInput{
+    position: relative;
+    padding: 1.5rem;
+    width: 449px;
+    height: 65px;
+    margin-top: 110px;
+    background: rgba(128, 0, 128, 0.1);
+    border-radius: 27px;
+    margin-left: 40px;
+}
+
+
+#userIcon{
+    background-image:url(./../../../src/assets/user.png); 
+    background-repeat: no-repeat; 
+    background-position: 13px 16px;
+}
+
+#passIcon{
+    background-image:url(./../../../src/assets/lock.png); 
+    background-repeat: no-repeat; 
+    background-position: 13px 16px;
+}
+
+li {
+    list-style: none;
+}
+.center
+{
+    justify-content: center;
+    display: flex;
+}
+
+
+
+/* html,body{
+    margin:0;
+    height:100%;
+} */
+
+.color{
+  display:block;
+  width:100%; 
+  height:100%;
+  object-fit: cover;
+  background-color: white;
+}
+
+
+.homeButtonSign{
+    border: 1px solid #4B176A;
+    width: 400px;
+    height: 60px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 27px;  
+    margin-top: 50px;
+    /* margin-left: -105px; */
+    color: #4B176A;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.homeButtonLogin{
+    border: 1px solid #4B176A;
+    width: 400px;
+    height: 60px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 27px;  
+    margin-top: 20px;
+   /*  margin-left: -105px; */
+    color: white;
+    background-color:#4B176A ;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.buttonIcon{
+    margin: 10px 20px;
+}
+
+.loginDivText{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #4B176A;
+}
+
+@media only screen and (min-width:1610px){
+    .errormain{
+        min-height: 820px;
+    }
+}

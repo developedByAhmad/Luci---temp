@@ -1,0 +1,15 @@
+
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header:focus {
+    color: #4B176A;
+}
+
+
+/*.navbar-light .navbar-toggler {*/
+/*    border-radius: 25px;*/
+/*}*/
+
+
+div#responsive-navbar-nav.navbar-collapse.collapse.show {
+    margin-top: 5px;
+}

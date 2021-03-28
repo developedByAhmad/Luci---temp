@@ -1,0 +1,661 @@
+.coverHeadingText {
+
+    /*color: yellow;*/
+    font-size: 65px;
+    font-weight: bold;
+    font-family: Roboto;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute
+
+}
+
+.coverParagraphText {
+
+    /*color: red;*/
+    font-size: 18px;
+    line-height: 21px;
+    font-family: Roboto;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left: 50%;
+    position: absolute;
+}
+
+.container {
+    margin-left: 270px;
+}
+
+.contianerImg {
+    width: 70px;
+    height: 70px;
+}
+
+.containerH1 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #4B176A;
+    margin-left: 5px;
+}
+
+.containerP {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4B176A;
+    margin-left: 5px;
+
+}
+
+.bodyImage {
+
+    /*display: none;*/
+
+    margin-left: 120px;
+    background: white;
+    width: 622px;
+    height: 480px;
+    left: 111px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+    /*flex-wrap: wrap;*/
+    /*align-content: center;*/
+
+}
+
+.flexChild {
+    /*max-width: 70%;*/
+    margin-left: 220px;
+}
+
+.flexChild2 {
+    margin-left: 100px;
+}
+
+.flex_input {
+    height: 50px;
+}
+
+.flex_textarea {
+    height: 200px;
+}
+
+.otherChild {
+    width: 100%;
+    height: 130px;
+    padding: .5rem;
+    margin-bottom: 50px;
+
+}
+
+.otherChild button {
+
+    position: absolute;
+    margin-left: 320px;
+    background: #4B176A;
+    border-radius: 10px;
+    height: 86px;
+    width: 57%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+    .coverHeadingText {
+
+        font-size: 65px;
+        font-weight: bold;
+        font-family: Roboto;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        position: absolute
+
+    }
+
+
+
+    .coverParagraphText {
+
+        font-size: 14px;
+        line-height: 21px;
+        font-family: Roboto;
+        transform: translate(-50%, -50%);
+        top: 70%;
+        left: 50%;
+        position: absolute;
+    }
+
+    .container {
+        margin-left: 80px;
+    }
+
+
+    .contianerImg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .containerH1 {
+        font-size: 17px;
+        font-weight: bold;
+        color: #4B176A;
+        margin-left: 5px;
+    }
+
+    .containerP {
+        font-size: 10px;
+        line-height: 21px;
+        color: #4B176A;
+        margin-left: 5px;
+
+    }
+
+    .bodyImage {
+
+        /*display: none;*/
+
+        margin-left: 0;
+        background: white;
+        width: 522px;
+        height: auto;
+
+    }
+
+
+    .flexContainer {
+        display: flex;
+        flex-direction: row;
+        /*flex-wrap: wrap;*/
+        justify-content: center;
+        /*align-content: center;*/
+
+    }
+
+    .flexChild {
+        /*display: flex;*/
+        /*flex: 100%;*/
+        /*align-content: center;*/
+        /*flex-direction: column;*/
+        /*max-width: 40%;*/
+        margin-left: 5px;
+    }
+
+    .flexChild2 {
+        margin-left: 80px;
+    }
+
+    .flex_input {
+        height: 50px;
+    }
+
+    .flex_textarea {
+        height: 200px;
+    }
+
+
+    .otherChild {
+        width: 100%;
+        height: 130px;
+        /*padding: .5rem;*/
+    }
+
+    .otherChild button {
+        position: absolute;
+        margin-left: 80px;
+        background: #4B176A;
+        border-radius: 10px;
+        height: 86px;
+        width: 85%;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) ipad pro */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .coverHeadingText {
+
+        font-size: 65px;
+        font-weight: bold;
+        font-family: Roboto;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        position: absolute
+
+    }
+
+    .coverParagraphText {
+
+        font-size: 12px;
+        font-family: Roboto;
+        transform: translate(-50%, -50%);
+        top: 70%;
+        left: 50%;
+        position: absolute;
+    }
+
+    .container {
+        margin-left: 150px;
+    }
+
+
+    .contianerImg {
+        width: 45px;
+        height: 45px;
+    }
+
+    .containerH1 {
+        font-size: 17px;
+        font-weight: bold;
+        color: #4B176A;
+        margin-left: 5px;
+    }
+
+    .containerP {
+        font-size: 7px;
+        line-height: 6px;
+        color: #4B176A;
+        margin-left: 5px;
+
+    }
+
+    .bodyImage {
+
+        /*display: none;*/
+
+        margin-left: 0px;
+        background: white;
+        width: auto;
+        height: auto;
+
+    }
+
+
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .flexChild {
+        /*display: flex;*/
+        /*flex: 100%;*/
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+        margin-top: 30px;
+        margin-left: 230px;
+    }
+    .flexChild2 {
+        margin-top: 35px;
+        margin-left: 160px;
+        width: 75%;
+        /*margin-left: 80px;*/
+    }
+
+    .flex_input {
+        height: 50px;
+    }
+
+
+    .otherChild {
+        width: 100%;
+        height: 130px;
+        /*padding: .5rem;*/
+    }
+
+    .otherChild button {
+        margin-top: 25px;
+        margin-left: 130px;
+        background: #4B176A;
+        border-radius: 10px;
+        height: 52px;
+        width: 79%;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .coverHeadingText {
+
+        /*color: yellow;*/
+        font-size: 50px;
+        font-weight: bold;
+        font-family: Roboto;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        position: absolute
+
+    }
+
+    .coverParagraphText {
+
+        /*color: green;*/
+        font-size: 10px;
+        font-family: Roboto;
+        transform: translate(-50%, -50%);
+        top: 70%;
+        left: 50%;
+        position: absolute;
+    }
+
+    .container {
+        margin-left: 55px;
+    }
+
+    .contianerImg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .containerH1 {
+        font-size: 17px;
+        font-weight: bold;
+        color: #4B176A;
+        margin-left: 5px;
+    }
+
+    .containerP {
+        font-size: 5px;
+        line-height: 5px;
+        color: #4B176A;
+        margin-left: 5px;
+
+    }
+
+    .bodyImage {
+
+        /*display: none;*/
+
+        margin-left: 0;
+        background: white;
+        width: auto;
+        height: auto;
+        /*width: 620px;*/
+        /*height: 400px;*/
+
+    }
+
+
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .flexChild {
+        /*display: flex;*/
+        /*flex: 100%;*/
+        justify-content: center;
+        flex-direction: column;
+        max-width: 80%;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+
+    .flexChild2 {
+        margin-top: 35px;
+        margin-left: 70px;
+        width: 80%;
+        /*margin-left: 80px;*/
+    }
+
+    .flex_input {
+        height: 40px;
+        background: rgba(0, 0, 0, 0.1);
+        color: black;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        border-color: currentColor;
+    }
+
+
+    /*.flexChild > .row {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*    margin-right: -15px;*/
+    /*    margin-left: -15px;*/
+    /*    color: red;*/
+    /*    margin-bottom: 5px;*/
+    /*}*/
+    .otherChild {
+        width: 100%;
+        height: 130px;
+        /*padding: .5rem;*/
+    }
+
+    .otherChild button {
+        margin-top: 10px;
+        margin-left: 40px;
+        background: #4B176A;
+        border-radius: 10px;
+        height: 52px;
+        width: 85%;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+
+    /*.coverHeadingText {*/
+    /*    font-size: 45px;*/
+    /*    font-weight: bold;*/
+    /*    font-family: Roboto;*/
+    /*    transform: translate(-50%, -50%);*/
+    /*    top: 50%;*/
+    /*    left: 50%;*/
+    /*    position: absolute*/
+    /*}*/
+    /*.coverParagraphText {*/
+    /*    !*color: blue;*!*/
+    /*    font-size: 9px;*/
+    /*    font-family: Roboto;*/
+    /*    transform: translate(-50%, -50%);*/
+    /*    top: 70%;*/
+    /*    left: 50%;*/
+    /*    position: absolute;*/
+    /*}*/
+    /*.contianerImg {*/
+    /*    width: auto;*/
+    /*}*/
+    /*.containerH1 {*/
+    /*    font-weight: bold;*/
+    /*    color: #4B176A;*/
+    /*}*/
+    /*.bodyImage{*/
+    /*    !*display: none;*!*/
+    /*    margin-left: 0;*/
+    /*    background: white;*/
+    /*    width: 680px;*/
+    /*    height: 400px;*/
+    /*}*/
+
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .coverHeadingText {
+
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Roboto;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        position: absolute
+
+    }
+
+    .coverParagraphText {
+
+        /*color: green;*/
+        font-size: 3px;
+        font-family: Roboto;
+        transform: translate(-50%, -50%);
+        top: 75%;
+        left: 50%;
+        position: absolute;
+    }
+    .container {
+        margin-left: 5px;
+    }
+
+    .contianerImg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .containerH1 {
+        font-size: 10px;
+        font-weight: bold;
+        color: #4B176A;
+        margin-left: 5px;
+    }
+
+    .containerP {
+        display: none;
+        font-size: 3px;
+        line-height: 0.1px;
+        color: #4B176A;
+        margin-left: 5px;
+
+    }
+
+    .bodyImage {
+
+        /*display: none;*/
+
+        margin-left: 0;
+        background: white;
+        width: 290px;
+        height: 200px;
+
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+
+    }
+
+    /*.flexChild {*/
+    /*    !*display: flex;*!*/
+    /*    flex: 100%;*/
+    /*    align-content: center;*/
+    /*    flex-direction: column;*/
+    /*    max-width: 80%;*/
+    /*    margin-top: 30px;*/
+    /*}*/
+
+    .flex_input {
+        height: 40px;
+    }
+
+    .flexChild {
+        /*display: flex;*/
+        /*flex: 100%;*/
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .flexChild2 {
+        margin-top: 35px;
+        /*margin-left: 160px;*/
+        width: 80%;
+        margin-left: 1px;
+    }
+
+    /*.flexChild > .row {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*    margin-right: -15px;*/
+    /*    margin-left: -15px;*/
+    /*    color: red;*/
+    /*    margin-bottom: 5px;*/
+    /*}*/
+    /*.flex-child input{*/
+    /*    width: 380px;*/
+    /*    height: 48px;*/
+    /*    background: rgba(128, 0, 128, 0.1);*/
+    /*    border-radius: 15px;*/
+    /*    margin-bottom: 17px;*/
+    /*}*/
+    /*.flexbutton{*/
+    /*    !*width: '1420px', height: '86px', fontWeight: 'bold'*!*/
+    /*    color: red;*/
+    /*    width: 500px;*/
+    /*    height: 86px;*/
+    /*    fontWeight: bold;*/
+    /*}*/
+    .otherChild {
+        width: 100%;
+        height: 130px;
+        /*padding: .5rem;*/
+    }
+
+    .otherChild button {
+        margin-top: 10px;
+        margin-left: 9px;
+        background: #4B176A;
+        border-radius: 10px;
+        height: 52px;
+        width: 90%;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+
+}
+
+
+

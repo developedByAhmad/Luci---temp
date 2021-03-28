@@ -1,0 +1,138 @@
+.newlogin{
+    height: 80vh;
+}
+
+.newAboutText{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 125.69%;
+    /* or 28px */
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #414441;
+    padding: 25px;
+}
+
+.newAboutText b{
+    font-weight: 600;
+}
+
+.teamText1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 115px;
+    line-height: 66px;
+    text-align: center;
+    color: #4B176A;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}   
+
+.teamText2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 76px;
+    text-align: center;
+    color: #4B176A;
+    margin-bottom: auto;
+}   
+
+.main{
+    background-color: #ffffff;
+    height: 100%;
+}
+
+@media only screen and (max-width:400px){
+    .teamText1{
+        font-size: 55px;
+    }
+
+    .newAboutText{
+        padding: 17px;
+    }
+    .newlogin{
+        height: 120vh;
+        /* margin-bottom: 10px; */
+    }
+
+    .main{
+        height: 100%;
+        /* margin-bottom: 10px; */
+    }
+}
+
+
+@media only screen and (min-width: 400px) and (max-width:1000px){
+    .main, .newlogin{
+        height: 100%;
+        /* margin-bottom: 10px; */
+    }
+}
+
+@media only screen and (min-width:1620px){
+    .teamText1{
+        margin-bottom: 50px;
+        /* margin-bottom: 10px; */
+    }
+}
+
+
+
+@media only screen and (max-height:650px){
+    .teamText1{
+        font-size: 55px;
+    }
+
+    .newAboutText{
+        padding: 17px;
+    }
+    .newlogin{
+        height: 120vh;
+        /* margin-bottom: 10px; */
+    }
+
+    .main{
+        height: 124vh;
+        /* margin-bottom: 10px; */
+    }
+}
+
+
+.newText{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140.69%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #444444;
+    padding: 10px 30px;
+}
+
+.newText li{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140.69%;
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #444444;
+    padding: 10px 30px;
+}
+
+.newText b{
+    font-weight: 800;
+}
+
+.bgAbout{
+    background-image: url(./../../assets/AboutUs.png);
+
+    
+}

@@ -1,0 +1,217 @@
+.container{
+    margin-top: 20px;
+}
+
+.container-fluid{
+    width: 100%;
+    margin-top: -50px;  
+    text-align: center;
+}
+.previous {
+    text-align: left;
+    }
+    
+.next {
+    text-align: right;
+}
+
+.table{
+    border-radius: 15px;
+}
+
+.progress{
+    width: 100%;
+    height: 62px;
+    /* background: green;    */
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.progress-bar{
+    background-color: #4B176A;
+    border-radius: 15px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+label{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4B176A;
+}
+
+
+.reportBtn{
+    width: 166px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #4B176A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140.69%;
+    /* identical to box height, or 23px */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #4B176A;
+    margin-top: 20px;
+}
+
+.reportBtn:hover{
+    color: #FFFFFF;
+    background-color: #4B176A;
+}
+
+.progressTxt{  
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 22px;
+    color: #4B176A;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+
+
+.border-radiusImportant{
+    border: '1px solid black';
+    border-radius: 25px !important;
+}
+/* 
+thead th {
+    background-color: #006DCC;
+    color: white;
+} */
+
+.table-responsive{
+    background-color: white;
+}
+
+caption{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #4B176A;
+}
+
+  
+ 
+
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+    max-width: 1760px; /* 2 */
+    background-color:#FFFFFF;
+    /* background-color:chartreuse; */
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 35px -7px rgba(0, 0, 0, 0.15);;
+}
+
+.responsiveTable {
+    width: 100%;
+    overflow: hidden;
+    width: 100%;
+    table-layout: fixed;
+    /* margin: 10px 20px; */
+    /* border: 1px solid; */
+
+}
+
+.Td{
+    border: none;
+}
+
+.Th{
+    background-color: #4B176A ;
+}
+
+.wrapper2 {
+    width: 100%;
+    max-width: 1060px; /* 2 */
+    background-color:#FFFFFF;
+    /* background-color:chartreuse; */
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 35px -7px rgba(0, 0, 0, 0.15);
+}
+
+
+.wrapper3 {
+    text-align: right;
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+    max-width: 1260px; /* 2 */
+    overflow: hidden;
+    /* background-color:#E5E5E5; */
+    /* background-color:chartreuse; */
+    /* padding-right: 10px; 3 */
+    /* padding-left:  10px;  */
+    padding: 1px;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 10px 8px #888888;  */ 
+}
+
+
+#mobiletbl{
+    /* margin:20px 15px 25px 100px; */
+}
+/* E5E5E5 */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+    
+    #mobiletbl{
+        margin:20px 15px 25px 4px;
+        /* background-color: chartreuse; */
+    }
+}
+@media only screen and (min-width: 600px) {
+    #mobiletbl{
+        margin:20px 15px 25px 40px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #mobiletbl{
+        margin:20px 15px 25px 80px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #mobiletbl{
+        margin:20px 15px 25px 90px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #mobiletbl{
+        margin: 20px 15px 25px 170px;
+    }
+}

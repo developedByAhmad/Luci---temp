@@ -1,0 +1,65 @@
+.rowContent{
+    display: table-row;
+}
+
+/* #dollarIcon{
+    background-image:url(./../../../assets/dollarinput.png); 
+    background-repeat: no-repeat; 
+    background-position: 450px 9px;
+}
+
+#inputIcon{
+    background-image:url(./../../../assets/inputlist.png); 
+    background-repeat: no-repeat; 
+    background-position: 450px 19px;
+} */
+
+.propertyLayoutMain{
+    background-color:aqua;
+    display: flex;
+    -ms-flex: auto;
+    flex: auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 0;
+    background: #f0f2f5;
+}
+
+.propertyLayoutSecond{
+    /* background-color: aqua; */
+    background-color: #E5E5E5;
+    padding: 7px 50px;
+    height: 82vh;
+}
+
+.propertyLayoutSider{
+    flex-direction: row;
+    /* background-color: #ffff; */
+    background-color: #ffffff;
+    padding: 20px 30px 20px 30px;
+    /* margin-bottom: 50px; */
+    height: 80vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .propertyLayoutSider{
+        flex-direction: row;
+        /* background-color: #ffff; */
+        background-color: #ffffff;
+        /* padding: 20px 30px 20px 30px; */
+        /* margin-bottom: 50px; */
+        height: 85vh;
+    }
+
+    .propertyLayoutSecond{
+        height: 87vh;
+    }
+
+    .propertyLayoutSecond{
+        text-align: center;
+        padding: 7px 20px;
+    }
+    .mainBlock-0-2-2 {
+        margin-left: 20px;
+    }
+}

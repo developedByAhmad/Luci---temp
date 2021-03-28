@@ -1,0 +1,10 @@
+.menuItem{
+    color: #4B176A;
+    background-color: #FFFFFF;
+}
+
+.menuItem:hover{
+    background-color: #4B176A;
+    color: #FFFFFF;
+}
+

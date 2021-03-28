@@ -1,0 +1,61 @@
+.rowContent{
+    display: table-row;
+}
+
+.propertyLayoutMain{
+    background-color:aqua;
+    display: flex;
+    -ms-flex: auto;
+    flex: auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 0;
+    background: #121212;
+    overflow: hidden;
+    /* background-color:aqua; */
+}
+
+.propertyLayoutSecond{
+    /* background-color: #9c9c9c; */
+    background-color: #E5E5E5;
+    padding: 7px 50px;
+    /* margin-bottom: 151px; */
+    height: 110vh;
+}
+
+.propertyLayoutSider{
+    flex-direction: row;
+    /* background-color: #bdbdbd; */
+    background-color: #ffffff;
+    padding: 20px 30px 20px 30px;
+    /* margin: 10px 20px; */
+    /* margin-bottom: 50px; */
+    /* margin-bottom: 230px; */
+    height: 110vh;
+}
+
+/* #dollarIcon{
+    background-image:url(./../../../assets/dollarinput.png); 
+    background-repeat: no-repeat; 
+    background-position: 450px 9px;
+}
+
+#inputIcon{
+    background-image:url(./../../../assets/inputlist.png); 
+    background-repeat: no-repeat; 
+    background-position: 450px 19px;
+} */
+
+
+@media only screen and (max-width:600px){
+    .propertyLayoutSecond, .propertyLayoutSider{
+        height: 170vh;
+    }
+    .propertyLayoutSecond{
+        text-align: center;
+        padding: 7px 20px;
+    }
+    .mainBlock-0-2-2 {
+        margin-left: 20px;
+    }
+}

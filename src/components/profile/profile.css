@@ -1,0 +1,16 @@
+.rowContent{
+    display: table-row;
+}
+
+#dollarIcon{
+    background-image:url(/luci3/src/assets/dollarinput.png);
+    background-repeat: no-repeat; 
+    background-position: 450px 9px;
+}
+
+#inputIcon{
+    background-image:url(/luci3/src/assets/inputlist.png);
+    background-repeat: no-repeat; 
+    background-position: 450px 19px;
+}
+

@@ -1,0 +1,175 @@
+.newllogin{
+    height: 80vh;
+    min-Width:25%;
+    background-color:#FFFFFF; 
+    margin-bottom:20px;
+    padding:20px;
+}
+
+.newTeamHeading{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: center;
+    color: #4B176A;
+    margin-top: 20px;
+}
+
+.newNameCeo{
+    font-family: "Lobster";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #444444;
+}
+
+.newJobTitle{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #444444;
+}
+
+
+.newText{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140.69%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #444444;
+    padding: 10px 30px;
+}
+
+
+@media only screen and (max-width:600px){
+    .newText{
+        text-align: justify;
+    }
+    .newllogin{
+        height: 120vh;
+    }
+}
+
+
+@media only screen and (min-width:1620px){
+    .newllogin{
+        padding: 25px;
+    }
+}
+/* 
+
+.loginDiv{
+    top: 25%;
+    margin: -25px 0 0 -25px; 
+    width: 769px;
+    height: 669px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 35px -7px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  
+}
+
+.loginDiv img{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 199px;
+    height: 199px;
+}
+
+
+.teamText1 {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: center;
+    color: #4B176A;
+}
+
+.loginDiv h2{
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.loginDiv h4{
+    margin: 17px 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.loginDiv p{
+    padding: 20px 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.69%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #444444;
+
+}
+
+
+li {
+    list-style: none;
+}
+.center
+{
+    justify-content: center;
+    display: flex;
+}
+
+
+
+html,body{
+    margin:0;
+    height:100%;
+}
+
+.color{
+  display:inline-block;
+  width:100%; 
+  height:100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+
+
+.buttonIcon{
+    margin: 10px 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .loginDiv{
+        height: 825px;
+    }
+} */

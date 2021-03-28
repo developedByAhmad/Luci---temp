@@ -1,0 +1,76 @@
+.rowContent{
+    display: table-row;
+}
+
+.propertyLayoutMain{
+    background-color:aqua;
+    display: flex;
+    -ms-flex: auto;
+    flex: auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 0;
+    background: #f0f2f5;
+    /* background-color:aqua; */
+}
+
+.propertyLayoutSecond{
+    /* background-color: aqua; */
+    background-color: #E5E5E5;
+    padding: 7px 50px;
+    /* margin-bottom: 151px; */
+    height: 110vh;
+}
+
+.propertyLayoutSider{
+    flex-direction: row;
+    /* background-color: #ffff; */
+    background-color: #ffffff;
+    padding: 20px 30px 20px 30px;
+    /* margin-bottom: 50px; */
+    /* margin-bottom: 171px; */
+    height: 110vh;
+}
+
+/* #dollarIcon{
+    background-image:url(./../../../assets/dollarinput.png); 
+    background-repeat: no-repeat; 
+    background-position: 450px 9px;
+}
+
+#inputIcon{
+    background-image:url(./../../../assets/inputlist.png); 
+    background-repeat: no-repeat; 
+    background-position: 450px 19px;
+} */
+
+.checkBox{
+    width: 25px;
+    height: 25px;
+    background: #E0DDE0;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+
+.checkBox label {
+    display: inline;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .propertyLayoutSider{
+        flex-direction: row;
+        /* background-color: #ffff; */
+        /* background-color: #ffffff; */
+        padding: 20px 10px 20px 10px;
+        /* margin-bottom: 50px; */
+        height: 125vh;
+    }
+
+    
+    .propertyLayoutSecond{
+        height: 127vh;
+        text-align: center;
+        padding: 7px 20px;
+    }
+}

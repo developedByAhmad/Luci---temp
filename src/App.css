@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+/* *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+.navbar-toggler-icon
+{
+  filter: invert(0%) sepia(0%) saturate(5599%) hue-rotate(329deg) brightness(98%) contrast(104%);
+}
+
+.navbar-dark .navbar-toggler
+{
+  filter: invert(0%) sepia(0%) saturate(5599%) hue-rotate(329deg) brightness(98%) contrast(104%);
+}
+
+input::-webkit-input-placeholder {
+	font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: #4B176A !important;
+  /* padding-left: 5px !important ; */
+}
+
+
+
+

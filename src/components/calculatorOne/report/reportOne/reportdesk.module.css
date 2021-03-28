@@ -1,0 +1,280 @@
+.bgReport{
+    background-color: #FFFFFF;
+    /* background: #FFFFFF; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-height: 250px;
+    margin-top: 40px;
+}
+
+/* Report One Styling */
+
+.headerR1{   
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    color: #4B176A;
+}
+
+.textR1{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4B176A;
+    padding: 10px;
+}
+/* 
+.tablecell{
+    width: 130.63px;
+    height: 45px;
+    border: 1px solid #4B176A;
+    box-sizing: border-box;
+    /* border-bottom: 1px solid #4B176A !important; 
+} */
+
+/* Report Three Styling */
+.divR3{
+    position: absolute;
+    width: 100%;
+    height: 1285px;
+    left: 88px;
+    top: 89px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.divR4{
+    /* position: absolute; */
+    width: 100%;
+    /* height: 1285px; */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.h1R3{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    color: #4B176A;
+    padding-left: 20px;
+}
+
+.h2R3{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #4B176A;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.imgR3{
+    /* background: linear-gradient(0deg, #4B176A, #4B176A), url(./../../../../assets/reportTwo.png); */
+    /* background-blend-mode: lighten, normal; */
+    width: 100%;
+    height: 80%;
+    /* background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+
+
+/* Report Four Styling */
+
+
+
+.h1R4{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    /* line-height: 40px; */
+    color: #4B176A;
+    margin-bottom: 40px;
+}
+
+
+/* Report Six */
+.headingR6{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    color: #4B176A;
+    padding-top: 10px;
+    padding-left: 3%;
+}
+
+.mainR6{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 20px 10px;
+}
+
+.paragraphR6{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #4B176A;
+}
+
+/* Chart Height and Width */
+
+.chartSize{
+    max-height: 350px !important;
+    max-width: 320px !important;
+}
+
+.chartjs-render-monitor{
+    max-height: 50px !important;
+    max-width: 320px !important;
+}
+
+
+/* Report Five */
+
+.headingR5{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #4B176A;
+    margin-bottom: 12%;
+    /* text-align: left; */
+}
+
+.headingR8{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    color: #4B176A;
+}
+
+.textR8{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #4B176A;
+}
+
+.tableR8{   
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 29px;
+    color: #4B176A;
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.thClass {
+    text-align: center;
+    border-bottom: 2px solid #4B176A;
+    border-right: 2px solid #4B176A;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4B176A;
+}
+
+.tdClass {
+    text-align: left;
+    padding: 10px;
+    border-right: 2px solid #4B176A;
+}
+
+
+.tdlastChild{
+    color: black;
+    border-right: hidden;
+}
+
+
+.thlastChild{
+    color: black;
+    border-right: #FFFFFF;
+    border-bottom: 2px solid #4B176A;
+}
+
+
+.trlastChild{
+    border-bottom: 2px solid #4B176A;
+    border-right: 2px solid #4B176A;
+}
+
+.totalCost{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 29px;
+    color: #4B176A;
+}
+
+.zoom
+{
+    /* zoom: 100%;
+     */
+
+    transform:scale(1,1);
+}
+
+
+
+.buttonclass{
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #FFFFFF;
+    border: 1px solid #4B176A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140.69%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #4B176A;
+    height: 40px;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px 2px #989898;
+    width: 150px;
+}
+
+
+.buttonclass:hover{
+    color: #FFFFFF;
+    background-color: #4B176A;
+    box-shadow: #FFFFFF;
+}

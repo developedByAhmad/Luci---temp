@@ -1,0 +1,51 @@
+.rowContent{
+    display: table-row;
+}
+
+.propertyLayoutMain{
+    background-color:aqua;
+    display: flex;
+    -ms-flex: auto;
+    flex: auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-height: 80vh;
+    background: #f0f2f5;
+    /* background-color:aqua; */
+}
+
+.propertyLayoutSecond{
+    /* background-color: aqua; */
+    background-color: #E5E5E5;
+    padding: 7px 50px;
+    /* margin-bottom: 151px; */
+    height: 65vh;
+}
+
+.propertyLayoutSider{
+    flex-direction: row;
+    /* background-color: #ffff; */
+    background-color: #ffffff;
+    padding: 20px 30px 20px 30px;
+    /* margin-bottom: 50px; */
+    /* margin-bottom: 171px; */
+    height: 74vh;
+}
+
+@media only screen and (max-width:600px){
+    .propertyLayoutSecond{
+        height: 92vh;
+    }
+    
+    .propertyLayoutSider{
+        height: 76vh;
+    }
+
+    .propertyLayoutSecond{
+        text-align: center;
+        padding: 7px 20px;
+    }
+    .mainBlock-0-2-2 {
+        margin-left: 20px;
+    }
+}
